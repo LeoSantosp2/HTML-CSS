@@ -1,0 +1,11 @@
+CÓDIGO PARA COLOCAR BACKGROUND COM IMAGEM
+background-image: url('');
+
+REPETIÇÕES DAS IMAGENS DE FUNDO
+background-repeat: repeat; = Forma Padrão de repetição
+background-repeat: no-repeat; = Não vai repetir a imagem de fundo
+background-repeat: repeat-x; = Vai repetir a imagem apenas na horizontal
+background-repeat: repeat-y; = Vai repetir a imagem apenas na vertifcal
+
+ALTERAR O TAMANHO DA IMAGEM DE FUNDO
+background-size: 1px 2px; 1px= Width 2px= Height
