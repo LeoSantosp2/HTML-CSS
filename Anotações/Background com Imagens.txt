@@ -15,3 +15,20 @@ background-position: left top; left = Coluna, top = Linha
 
 ALTERAR TAMANHO DO FUNDO
 backgroud-size: 100% ou contain ou cover
+
+PARA FAZER COM QUE A IMAGEM DE FUNDO NÃO ROLE JUNTO COM O SITE
+background-attachment: fixed;
+
+ATALHO PARA COLOCAR FORMATAÇÕES DO BACKGROUND
+background-color: black;
+background-image: url('Imagens/wallpaper002.jpg');
+background-repeat: no-repeat;
+background-position: center top;
+background-size: cover;
+background-attachment: fixed;
+
+Todas essas linhas de código pode se resumir a apenas uma linha que é o Shorthand - Background.
+
+Shorthand - Background -> background: color > image > position > repeat > [size] > attachment;
+
+O size tem que ser feito a parte pois até o momento os navegadores não o reconhece no shorthand.
