@@ -1,0 +1,3 @@
+PARA ALINHAR CAIXAS VERTICALMENTE
+Caixa de Fora -> position: relative;
+Caixa de Dentro -> position: absolute; -> left: 50%; top: 50%; -> transform: translate(-50%, -50%);
