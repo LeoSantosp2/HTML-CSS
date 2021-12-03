@@ -19,7 +19,7 @@ backgroud-size: 100% ou contain ou cover
 PARA FAZER COM QUE A IMAGEM DE FUNDO NÃO ROLE JUNTO COM O SITE
 background-attachment: fixed;
 
-ATALHO PARA COLOCAR FORMATAÇÕES DO BACKGROUND
+FORMATAÇÕES DO BACKGROUND
 background-color: black;
 background-image: url('Imagens/wallpaper002.jpg');
 background-repeat: no-repeat;
