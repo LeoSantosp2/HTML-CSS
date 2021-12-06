@@ -9,8 +9,9 @@
     --cor03: rgba(0, 0, 0, 0.300);
 }
 
-body{
+*{
     margin: 0px;
+    padding: 0px;
 }
 
 header{
@@ -22,14 +23,9 @@ header{
 }
 
 header h1{
-    margin: 0px;
     font-family: 'Passion One', Arial, sans-serif;
     font-size: 45pt;
     padding-top: 25px;
-}
-
-header p{
-    margin: 0px;
 }
 
 header a{
@@ -38,37 +34,28 @@ header a{
     font-weight: bolder;
 }
 
-.sessao{
+section{
     font-family: sriracha, Arial, sans-serif;
-    margin: 0px;
-    padding: 50px;
+    padding: 30px;
     min-height: 200px;
+    font-size: 2em;
+}
+
+.sessao p{
+    background-color: var(--cor03);
+    color: var(--cor02);
+    padding: 10px;
+    width: 400px;
+}
+
+#secum{
+    background: var(--cor02) url('../Imagens/background001.jpg') center center no-repeat fixed;
+    background-size: cover;
 }
 
 #secdois{
-    background: var(--cor02) url('../Imagens/background001.jpg') center top no-repeat fixed;
+    background: var(--cor02) url('../Imagens/background002.jpg') center center no-repeat fixed;
     background-size: cover;
-}
-
-#secdois p{
-    background-color: var(--cor03);
-    color: var(--cor02);
-    margin: 0px;
-    padding: 10px;
-    width: 250px;
-}
-
-#secquatro{
-    background: var(--cor02) url('../Imagens/background002.jpg') center top no-repeat fixed;
-    background-size: cover;
-}
-
-#secquatro p{
-    background-color: var(--cor03);
-    color: var(--cor02);
-    margin: 0px;
-    padding: 10px;
-    width: 250px;
 }
 
 footer{
@@ -76,10 +63,6 @@ footer{
     color: var(--cor02);
     font-style: italic;
     text-align: center;
-}
-
-footer p{
-    margin: 0px;
 }
 
 footer a{

@@ -1,0 +1,9 @@
+SHORTHAND DE FONTES
+font: font-style -> font-weight -> font-size -> font-family;
+
+TAMANHOS DAS FONTES
+1em ou 16px -> Tamanho padrão das fontes
+
+
+CRIAR FONT-FAMILY
+@font-face{font-family: ''; src: url('') format('');}
