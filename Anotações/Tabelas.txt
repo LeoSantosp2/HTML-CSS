@@ -1,0 +1,13 @@
+HIERARQUAI DE TABELAS (Simples)
+Table (Tabela) -> Table Row (Linha de Tabela) -> Table Data (Dado de Tabela)
+Table Header (Cabeçalho de Tabela)
+
+ALINHAMENTO DE CONTEÚDO
+Alinhamento Horizontal -> text-aling: center, right ou left;
+Alinhamento Vertical -> vertical-align: top, bottom e middle;
+
+OBSERVAÇÕES
+Juntar as linha fazendo com que pareça mais com uma tabela -> border-collapse: collapse;
+
+ANATOMIA PARA TABELAS GRANDES
+Table -> thead -> tbody -> tfoot -> tr, td, th
