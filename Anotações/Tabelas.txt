@@ -10,4 +10,9 @@ OBSERVAÇÕES
 Juntar as linha fazendo com que pareça mais com uma tabela -> border-collapse: collapse;
 
 ANATOMIA PARA TABELAS GRANDES
-Table -> thead -> tbody -> tfoot -> tr, td, th
+Table -> caption -> thead -> tbody -> tfoot -> tr, td, th
+
+EFEITO ZEBRADO
+tbody > tr:nth-child(odd, 2n-1 ou even, 2n)
+odd -> Ímpar 
+even -> Par
