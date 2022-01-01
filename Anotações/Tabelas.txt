@@ -16,3 +16,9 @@ EFEITO ZEBRADO
 tbody > tr:nth-child(odd, 2n-1 ou even, 2n)
 odd -> Ímpar 
 even -> Par
+
+FIXAR O CABEÇALHO
+table com position relative; thead com position sticky;
+
+MESCLAR CÉLULAS
+Dentro da tag td escrever colspan="num de colunas" para colunas;  rowspan="num de linhas" para linhas
